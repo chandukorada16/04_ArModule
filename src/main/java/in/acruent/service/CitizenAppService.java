@@ -1,9 +1,9 @@
 package in.acruent.service;
 
-import in.acruent.binding.CitizenAppBinding;
+import in.acruent.entity.CitizenApp;
 
 public interface CitizenAppService {
 	
-	public Integer createApplication(CitizenAppBinding app);
+	public Integer createApplication(CitizenApp app);
 
 }
